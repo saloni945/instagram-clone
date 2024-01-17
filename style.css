@@ -1,0 +1,134 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav{
+    width: 990px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.title{
+    width: 17%;
+}
+
+.btn1{
+    width: 13%;
+    height: 30px;
+    background-color: hsl(216, 100%, 51%);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+.con{
+    width: 990px;
+    height: 150px;
+    margin: 20px auto;
+    display: flex;
+    gap: 25px;
+    overflow: scroll;
+    
+}
+
+.story{
+    align-items: center;
+    text-align: center;
+}
+.story-user{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.feed{
+    width: 990px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+   gap: 50px;
+}
+
+.post{
+    width: 510px;
+    border: 1px solid lightgray;
+    height: 630px;
+    border-radius: 10px;
+    margin: 25px auto;
+}
+
+.post-img{
+    width: 100%;
+    height: 450px;
+    padding: 8px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.post-profile{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 7px;
+}
+
+.n1{
+    font-size:17px;
+}
+
+.n2{
+    font-size: 15px;
+    color: gray;
+}
+
+.img2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+}
+
+.icon-img{
+    width: 25px;
+}
+
+.icon-img1{
+    width: 30px;
+}
+
+.caption{
+    padding:5px 10px;
+    margin-bottom: 0px;
+}
+
+.sidebar{
+    width: 35%;
+    margin-top: 30px;
+}
+
+.img3{
+    width: 150px;
+}
+
+.posts{
+    width: 70%;
+}
+
+h2{
+    font-weight: 1000;
+}
+
+.post-section{
+    
+    gap:20px;
+}
